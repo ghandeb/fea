@@ -1,0 +1,310 @@
+MachineType 3 
+UnitSystem 1
+
+B_MACHINE
+ FrictionLoss 50
+ WindLoss 50
+ ReferenceSpeed 1500
+ NumberOfPoles 16
+ RotorPosition 1
+ ControlType 0
+ CircuitType 0
+ B_CIRCUIT
+  TriggerPulseWidth 120
+  TransistorDrop 1
+  DiodeDrop 1
+  LeadAngleOfTrigger 0
+  MaximumCurrent 0
+  MinimumCurrent 0
+ E_CIRCUIT
+ B_STATOR
+  OuterDiameter 210
+  InnerDiameter 110
+  Length 50
+  StackingFactor 0.95
+  SteelType steel_1010
+  NumberOfSlots 24
+  SlotType 2
+  LaminationSectors 0
+  PressBoardThickness 0
+  SkewWidth 1
+  B_Slot
+   Hs0 1
+   Hs1 2
+   Hs2 30
+   Bs0 2
+   Bs1 6
+   Bs2 12
+   Rs 0
+   AutoDesign 0
+   ParallelTooth 0
+   ToothWidth 0
+  E_Slot
+  B_Winding
+   WindingType 1
+   WindingLayers 2
+   ParallelBranches 1
+   ConductorsPerSlot 16
+   CoilPitch 1
+   InputHalfTurnLength 0
+   HalfTurnLength 0
+   EndAdjustment 7
+   NumberOfStrands 5
+   WireWrap 0.2
+   WireDiameter 1.369
+   Gauge 0
+   WireWidth 0
+   WireThickness 0
+   BaseInnerRadius 0.3
+   TipInnerDiameter 1
+   EndClearance 4
+   CoilWrap 0
+   SlotLiner 0.2
+   WedgeThickness 0.6
+   LayerInsulation 0.5
+   BottomInsulation 0
+   LimitedFillFactor 0.75
+  E_Winding
+ E_STATOR
+ B_ROTOR
+  OuterDiameter 108
+  InnerDiameter 40
+  Length 50
+  SteelType steel_1010
+  PoleType 1
+  StackingFactor 0.95
+  B_POLE
+   Embrace 0.9
+   Offset 4
+   ShaftDiameter 0
+   Bridge 0
+   Rib 0
+   MagnetThickness 4
+   MagnetWidth 0
+   MagnetType NdFe35
+  E_POLE
+ E_ROTOR
+ B_SHAFT
+  MagneticShaft 0
+ E_SHAFT
+E_MACHINE
+
+B_SOLVESETUP
+ RatedOutputPower 1.5
+ RatedVoltage 50
+ RatedSpeed 500
+ OperatingTemperature 75
+ OperationType 0
+ LoadType 1
+E_SOLVESETUP
+
+B_WIREDATA
+UnitSystem 1
+B_ROUND 101
+4/0 11.684 0
+3/0 10.404 0
+2/0 9.266 0
+1/0 8.252 0
+1/0.5 7.788 0
+1 7.348 0
+1.5 6.934 0
+2 6.543 0
+2.5 6.175 0
+3 5.827 0
+3.5 5.499 0
+4 5.189 0
+4.5 4.897 0
+5 4.62 0
+5.5 4.361 0
+6 4.115 0
+6.5 3.884 0
+7 3.665 0
+7.5 3.459 0
+8 3.264 0
+8.5 3.081 0
+9 2.906 0
+9.5 2.743 0
+10 2.588 0
+10.5 2.443 0
+11 2.304 0
+11.5 2.174 0
+12 2.052 0
+12.5 1.938 0
+13 1.829 0
+13.5 1.725 0
+14 1.628 0
+14.5 1.537 0
+15 1.45 0
+15.5 1.369 0
+16 1.29 0
+16.5 1.219 0
+17 1.151 0
+17.5 1.085 0
+18 1.024 0
+18.5 0.965 0
+19 0.912 0
+19.5 0.861 0
+20 0.813 0
+20.5 0.767 0
+21 0.724 0
+21.5 0.683 0
+22 0.643 0
+22.5 0.607 0
+23 0.574 0
+23.5 0.541 0
+24 0.511 0
+24.5 0.483 0
+25 0.455 0
+25.5 0.429 0
+26 0.404 0
+26.5 0.381 0
+27 0.361 0
+27.5 0.34 0
+28 0.32 0
+28.5 0.302 0
+29 0.287 0
+29.5 0.269 0
+30 0.254 0
+30.5 0.239 0
+31 0.226 0
+31.5 0.213 0
+32 0.203 0
+32.5 0.19 0
+33 0.18 0
+33.5 0.17 0
+34 0.16 0
+34.5 0.15 0
+35 0.142 0
+35.5 0.135 0
+36 0.127 0
+36.5 0.119 0
+37 0.114 0
+37.5 0.107 0
+38 0.102 0
+38.5 0.094 0
+39 0.089 0
+39.5 0.084 0
+40 0.079 0
+40.5 0.076 0
+41 0.071 0
+41.5 0.066 0
+42 0.064 0
+42.5 0.061 0
+43 0.056 0
+43.5 0.053 0
+44 0.051 0
+44.5 0.048 0
+45 0.0447 0
+46 0.0399 0
+47 0.0356 0
+48 0.0315 0
+49 0.0282 0
+50 0.0251 0
+51 0.0224 0
+52 0.0198 0
+E_ROUND
+B_RECT
+Max 13
+Min 1.1
+SkipOne 1
+B_ASIZE 17
+1.02 0.5
+1.15 0.5
+1.29 0.5
+1.45 0.5
+1.63 0.5
+1.83 0.5
+2.05 0.5
+2.3 0.5
+2.59 0.67
+2.91 0.67
+3.26 0.8
+3.66 0.8
+4.12 1
+4.62 1
+5.19 1
+5.83 1
+6.54 1
+E_ASIZE
+B_BSIZE 33
+2.05
+2.18
+2.3
+2.44
+2.59
+2.74
+2.91
+3.08
+3.26
+3.46
+3.66
+3.88
+4.12
+4.36
+4.62
+4.9
+5.19
+5.5
+5.83
+6.18
+6.54
+6.93
+7.35
+7.79
+8.25
+8.74
+9.27
+9.82
+10.4
+11.03
+11.68
+12.38
+13.12
+E_BSIZE
+E_RECT
+E_WIREDATA
+
+
+B_NdFe35
+ Kh 0
+ Kc 0
+ Ke 0
+ Conductivity 625000
+ MassDensity 7400
+ Mur 1.0997785406
+ Hc -890000
+E_NdFe35
+
+B_steel_1010
+ Kh 0
+ Kc 0
+ Ke 0
+ Conductivity 2000000
+ MassDensity 7872
+ B_HBCurve 23
+  0 0
+  238.7 0.2003
+  318.3 0.3204
+  358.1 0.40045
+  437.7 0.50055
+  477.5 0.5606
+  636.6 0.7908
+  795.8 0.931
+  1114.1 1.1014
+  1273.2 1.2016
+  1591.5 1.302
+  2228.2 1.4028
+  3183.1 1.524
+  4774.6 1.626
+  6366.2 1.698
+  7957.7 1.73
+  15915.5 1.87
+  31831 1.99
+  47746.5 2.04
+  63662 2.07
+  79577.5 2.095
+  159155 2.2
+  318310 2.4
+ E_HBCurve 23
+E_steel_1010
+

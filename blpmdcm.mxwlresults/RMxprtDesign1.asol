@@ -1,0 +1,71 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002017, month=000000000008, day=000000000020, hour=000000000015, min=000000000010, sec=000000000053)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000001787, lin=000000000052, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock20'
+	SolutionName='Performance'
+	SolutionID=141
+	V=0
+	$begin 'States'
+		F(VID=45, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'SolutionDataFiles'
+		MSolutionData(VID=45, Ver=0, Dir='DV45_SOL141_V0.MSolutionData/')
+	$end 'SolutionDataFiles'
+	$begin 'SolverDataFiles'
+		MSolverData(VID=45, Ver=0, File='DV45_SOL141_V0.MSolverData')
+	$end 'SolverDataFiles'
+	$begin 'ExportDataFiles'
+		MExportData(VID=45, Ver=0, Dir='DV45_SOL141_V0.MExportData/')
+	$end 'ExportDataFiles'
+	$begin 'CurvesDataFiles'
+		MCurvesData(VID=45, Ver=0, Dir='DV45_SOL141_V0.MCurvesData/')
+	$end 'CurvesDataFiles'
+$end 'SolutionBlock20'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock3'
+	'SolutionKey(SimSetup=140, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock21'
+	'SolutionKey(SimSetup=140, Instance=\'SolutionDefinition\', Solution=141, VersionID=0)'='SolutionBlock20'
+$end 'BlockMapName'
+$begin 'SolutionBlock21'
+	SimSetupID=140
+	SimSetupName='Setup1'
+	VersionID=0
+	SolveSetupID=2
+$end 'SolutionBlock21'
+$begin 'SolutionBlock3'
+	ProductName=''
+	CircuitName='RMxprtDesign1'
+	VersionID=130
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=160
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=45)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+$end 'SolutionBlock3'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock3(pos=1497, lin=38, lvl=0)
+		SolutionBlock20(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=1100, lin=27, lvl=0)
+		SolutionBlock21(pos=1381, lin=32, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=1787, lin=52, lvl=0)
+	$end '$index$'
+$end '$index$'
